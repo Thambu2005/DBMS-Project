@@ -1,0 +1,33 @@
+/* Base font and background */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0011ff; /* White background */
+    color: #430081; /* Purple text */
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px;
+}
+
+/* Class to hide elements */
+.hidden {
+    display: none;
+}
+
+/* Icon size and positioning */
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+}
+
+/* New styles for buttons, links, etc. to match theme */
+.bg-primary {
+    background-color: #7affe2; /* Purple background for buttons */
+    color: #a0ff94; /* White text on buttons */
+}
+
+.bg-primary:hover {
+    background-color: #35ccf1; /* Slightly lighter purple on hover */
+}
